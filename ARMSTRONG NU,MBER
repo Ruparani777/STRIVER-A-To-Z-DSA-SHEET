@@ -25,3 +25,10 @@ int main() {
 }
     return 0;
 }
+
+
+
+OPTIMISE:BY POW METHOD
+
+count digits
+next same pattern as above but rev += line is replaced by sum+=pow(remainder,count)//remainder^count
