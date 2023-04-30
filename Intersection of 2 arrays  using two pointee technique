@@ -1,0 +1,5 @@
+include<bits/stdc++.h>
+using namespace std;
+
+  vector<int> intersectionOfArrays(vector<int>A, vector<int>B){
+    
