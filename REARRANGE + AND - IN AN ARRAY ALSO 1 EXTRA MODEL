@@ -1,0 +1,23 @@
+1.MODEL 1 REARRANGE + AND - IN AN ARRAY
+1.create positive array adnd negative array
+2.separate /seggaregate pos and neg  indivuivally and push to pos and neg array.
+3.add+ array and -array in order in  original array 
++ ==2*i
+- ==2*i+1
+
+2.MODEL 2 : REARRANGE + AND - AND ADD LAST +/- WHOLE
+1. 2 .steps same 
+if(length of pos <length of neg){
+for(o ot pos length){
+3.}
+int index=poslength*2;
+for(posl---negl){
+array of index=neg[i];
+increment index;
+}
+
+else{
+same as above except pos is replace with neg and vice versa.
+
+
+
