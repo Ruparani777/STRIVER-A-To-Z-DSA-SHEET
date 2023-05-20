@@ -1,1 +1,9 @@
 
+Two dimensional array: int two_d[10][20];
+
+Three dimensional array: int three_d[10][20][30];
+Size of Multidimensional Arrays:
+2d array  size above eg: 10*20=200 elements
+2d array size in bytes = 10*20*4=800 (int=4 bytes)
+
+
