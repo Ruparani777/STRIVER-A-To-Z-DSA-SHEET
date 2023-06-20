@@ -1,0 +1,28 @@
+// User function Template for C++
+
+class Solution {
+  public:
+    int dataTypeSize(string str) 
+    {
+        if(str[0]=='C')//charater
+        {
+            return sizeof(char);
+        }
+        if(str[0]=='I')//int
+        {
+            return sizeof(int);
+        }
+        if(str[0]=='L')//long
+        {
+            return sizeof(long);
+        }
+        if(str[0]=='F')//float
+        {
+            return sizeof(float);
+        }
+        if(str[0]=='D')//double
+        {
+            return sizeof(double);
+        }
+    }
+};
