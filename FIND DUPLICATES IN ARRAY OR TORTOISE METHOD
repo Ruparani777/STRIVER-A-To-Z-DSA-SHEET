@@ -1,0 +1,20 @@
+public:
+    int findDuplicate(vector<int>& nums)//LINKED LIST CYCLE METHOD 
+     {
+        int slow = nums[0];
+        int fast = nums[0];
+        do {
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+        } while (slow != fast);
+        // Find the "entrance" to the cycle.
+        slow = nums[0];
+        while (slow != fast) // WHENEVER  2ND TYM FAST AND SLOW POINTER MEETS IT GIVES DUPLICATE NUMBER  (EITHER THE FAST OR SLOW )
+        {
+            slow = nums[slow];
+            fast = nums[fast];
+        }
+        return slow;
+    }
+    
+};
